@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="form-container">
+    <h2 class="form-title">📝 Admin Sign Up</h2>
+    <form method="POST" class="stock-form">
+        <input type="text" name="name" placeholder="👤 Full Name" required class="form-input">
+        <input type="email" name="email" placeholder="📧 Email" required class="form-input">
+        <input type="password" name="password" placeholder="🔒 Password" required class="form-input">
+        <button type="submit" class="form-button">Sign Up</button>
+    </form>
+</div>
+{% endblock %}
